@@ -1,0 +1,38 @@
+CSS -----------------------------------------------------------------------------------
+
+Formas de uso:
+    - Inline
+
+
+
+    
+Como Utilizar:
+    - Selecionar o que deve ser modificado
+    - Modificar 
+Seletores:
+    - Id
+    - Class
+    - Tag
+
+Propriedades:
+    - MUITAS
+    - Básicas:
+        Cor (colour, bkg-colour)
+        Fontes
+
+Modelo de caixas:
+    - Height, width
+    - padding (tamanho)
+    - border (tamanho, tipo, cor)
+    - margin (tamanho)
+
+Posicoes:
+    - Display
+        - Flexbox
+        - Grid
+    - Left
+    - Right
+    - Top 
+    - Bottom
+
+- link:css 
