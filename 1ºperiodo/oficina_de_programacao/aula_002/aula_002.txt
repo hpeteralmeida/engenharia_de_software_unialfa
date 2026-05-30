@@ -1,0 +1,31 @@
+HTML (HyperText Markup Language)
+- Define a estrutura do código
+- Definido por tags e elementos 
+    opening tag: <p>
+    element content: paragraph
+    closing tag: </p>
+
+    TAGS 
+        - importante utilizar tags corretamente
+        - aumenta o destaque do seu site (SEO - Search Engine Optmizer)
+        - acessibilidade
+            - semantic HTML
+        
+        - Heading (h1-6): titulos
+        - Paaragraph (p): textos de paragrafo
+        - Span (span): divisao do codigo 
+        - List (ul, ol, li): listas 
+        - Division (div): para que cada parte esteja em um lugar diferente, ela precisa estar em divs diferentes
+        - Anchor (a): usado para passar links 
+        - Image (img): fotos e videos
+        - Form (form): formulários (grupamento de labels)/caixa de textos
+        - Input (Input)
+        - Label (label)
+
+- index: é a primeira pagina que o servidor procura (o site nao roda sem o index)
+- ! enter: inicia o codigo
+    - tag head: metadados do site (dados que serao usados como padrao)
+        1. caracterizacao de teclado 
+        2. 
+        3. title: nome do documento
+    -
