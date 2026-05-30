@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem Vindo!</h1>
+
+    <p>Digite alguma coisa!</p>
+
+    <input type="text" id="texto" placeholder="Digite aqui">
+    <button onclick="texto()">Enter</button>
+<p id="resultadodotexto"></p>
+
+<script>
+    function texto() {
+        let frase = document.getElementById("texto").value
+        document.getElementById("resultadodotexto").innerText = frase;
+    }
+</script>
+
+<style>
+    #resultadodotexto {
+        position: absolute;
+        top: 300px;
+        left: 500px;
+        background-color: rgb(135, 179, 255);
+        color: white;
+        font-size: 100px;
+    }
+</style>
+</body>
+</html>
