@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="screen active" id="start-screen">
+            <h1> Quiz Time! </h1>
+            <p> Teste seus conhecimentos </p>
+
+            <button id="start-btn"> Começar quiz </button>
+        </div>
+
+        <div class="screen" id="quiz-screen">
+            <div class="quiz-header">
+                <h2 id="question-text"> Pergunta vem aqui </h2>
+
+                <div class="quiz-info">
+                    <p> 
+                        Questão <span id="current-question">1</span> of <span id="total-questions">5</span>
+                    </p>
+
+                    <p>
+                        Pontuação: <span id="score">0</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="answers-container" id="answers-container">
+                <!--- Resostas serão adicionadas aqui-->
+            </div>
+
+            <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+            </div>
+
+            <button id="skip-quiz-btn"> PULAR </button>
+        </div>  
+
+
+        <div class="screen" id="result-screen">
+            <h1> Resultado </h1>
+
+            <div class="result-info">
+                <p> Sua pontuação final é 
+                    <span id="final-score">0</span>
+                    de <span id="max-score">5</span>
+                </p>
+
+                <div class id="result-message"> Pulou por que? </div>
+            </div>
+
+            <button id="restart-btn"> Reiniciar Quiz </button>
+            <button id="beginning-btn"> Voltar ao inicio </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
