@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5efe6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+.container {
+
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.
+.pagina-inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina-inicial h1 {
+    color: #e86a33;
+    margin-bottom: 1rem;    
+    font-size: 2.5rem;
+}
+
+.pagina-inicial p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.quiz-page h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: #666;
+}
+
+.barra-progresso {
+    height: 10px;
+    background-color: #f5efe6;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 2.5rem;
+
+}
+
+.progresso {
+    height: 10px;
+    width: 0;
+    border-radius: 10px;
+    background-color: #e86a33;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    background-color: #e86a33;
+    color: white;
+    padding: 1.2rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #dc3545;
+}
