@@ -1,0 +1,14 @@
+Requisitos Fundamentais de Implementação:
+
+    Princípio FIFO: primeiro que entra é o primeiro que sái.
+    Operações básicas em uma estrutura de dados fila (Queue), que segue o princípio FIFO (First-In, First-Out - o primeiro a entrar é o primeiro a sair), são enqueue (inserir no final), dequeue (remover do início), peek/front (visualizar o início) e isEmpty (verificar se está vazia).
+
+Estrutura de Armazenamento:
+        Vetor (Estático): Requer tamanho fixo pré-definido e controle de topo e cheio (isFull).
+        Lista Encadeada (Dinâmica): Requer nós com ponteiros para o próximo elemento, permitindo tamanho variável.
+Operações Básicas (O(1)):
+    Enqueue (Enfileirar): Adiciona um elemento ao final (cauda) da fila.
+    Dequeue (Desenfileirar): Remove e retorna o elemento que está no início (cabeça) da fila.
+    Peek / Front: Retorna o elemento da frente sem removê-lo.
+    IsEmpty: Verifica se a fila está vazia, retornando um valor booleano.
+    IsFull: Verifica se a fila está (cheia comum em implementações com arranjos/arrays de tamanho fix)
