@@ -1,0 +1,13 @@
+Requisitos Fundamentais de Implementação:
+
+    Princípio LIFO: O último elemento a entrar deve ser o primeiro a sair.
+    Estrutura de Armazenamento:
+        Vetor (Estático): Requer tamanho fixo pré-definido e controle de topo e cheio (isFull).
+        Lista Encadeada (Dinâmica): Requer nós com ponteiros para o próximo elemento, permitindo tamanho variável.
+    Controle do Topo: Um ponteiro ou índice que rastreia o elemento mais recente inserido.
+    Operações Básicas (O(1)):
+        push(item): Insere no topo.
+        pop(): Remove e retorna o item do topo.
+        top()/peek(): Retorna o item do topo sem removê-lo.
+        isEmpty(): Verifica se a pilha está vazia (necessário para evitar erros de underflow).
+        isFull(): Verifica se a pilha está cheia (necessário para vetores).
