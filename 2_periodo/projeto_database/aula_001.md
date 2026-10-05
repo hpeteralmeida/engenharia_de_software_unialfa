@@ -1,4 +1,4 @@
-ATIVIDADE – INTRODUÇÃO A BANCO DE DADOS - 21/08/2026
+ATIVIDADE – INTRODUÇÃO A BANCO DE DADOS - 21/08/2026w
 
 
 Orientações: Utilize somente o material da Aula 1. Não é necessário conhecimento anterior de Banco de Dados ou programação. 
