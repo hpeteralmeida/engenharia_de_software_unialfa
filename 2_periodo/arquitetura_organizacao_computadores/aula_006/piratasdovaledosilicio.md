@@ -1,0 +1,1 @@
+[text](<../../../../../Library/Group Containers/group.com.apple.coreservices.useractivityd/shared-pasteboard/items/222E3228-958A-4CBE-AC64-E8A3A513865B/86bcff7952ce9635b9d2238e3f3c75e07f4bc5ce.rtfd>)
